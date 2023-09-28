@@ -62,6 +62,7 @@ choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System'
 
 ### Windows - MSVC
 #### Additional requirements
+  - [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)
   - Visual Studio 2022
 1. Open a terminal using the  `x64 Native Tools Command Prompt for VS 2022` (`vcvars64.bat`)
 2. Run the `./build_win-msvc.ps1` build script
